@@ -1,5 +1,6 @@
 import { BrokenImagesComponent } from '@app/features/broken-images/broken-images.component';
 import { DownloadComponent } from '@app/features/download/download.component';
+import { FormComponent } from '@app/features/form/form.component';
 import { GeolocationComponent } from '@app/features/geolocation/geolocation.component';
 import { UploadComponent } from '@app/features/upload/upload.component';
 import CustomRoute from './model/custom-route';
@@ -24,6 +25,11 @@ const AppRoutes: CustomRoute[] = [
     path: 'geolocation',
     component: GeolocationComponent,
     description: 'Geolocation',
+  },
+  {
+    path: 'form',
+    component: FormComponent,
+    description: 'Forms',
   },
 ];
 

@@ -6,7 +6,11 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatListModule } from '@angular/material/list';
-
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 const MATERIAL = [
   MatButtonModule,
   MatTabsModule,
@@ -15,6 +19,11 @@ const MATERIAL = [
   MatIconModule,
   MatBadgeModule,
   MatListModule,
+  MatStepperModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatRadioModule,
+  MatDatepickerModule,
 ];
 
 @NgModule({

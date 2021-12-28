@@ -10,7 +10,7 @@ import { SharedModule } from './shared/shared.module';
 import { HomeComponent } from './home/home.component';
 import { UploadComponent } from './features/upload/upload.component';
 import { DownloadComponent } from './features/download/download.component';
-
+import { MatNativeDateModule } from '@angular/material/core';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +29,7 @@ import { DownloadComponent } from './features/download/download.component';
       registrationStrategy: 'registerWhenStable:30000',
     }),
     HttpClientModule,
+    MatNativeDateModule,
     SharedModule,
   ],
   providers: [],
