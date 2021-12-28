@@ -1,0 +1,32 @@
+@import "theme.scss";
+
+#container {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $accent;
+  color: $primary;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 600px;
+  text-align: center;
+}
+
+#container > div {
+  margin: 0 0 20px 0;
+}
+
+label {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+}
