@@ -1,3 +1,4 @@
+import { BrokenImagesComponent } from '@app/features/broken-images/broken-images.component';
 import { DownloadComponent } from '@app/features/download/download.component';
 import { UploadComponent } from '@app/features/upload/upload.component';
 import CustomRoute from './model/custom-route';
@@ -12,6 +13,11 @@ const AppRoutes: CustomRoute[] = [
     path: 'download',
     component: DownloadComponent,
     description: 'Download a file',
+  },
+  {
+    path: 'broken-images',
+    component: BrokenImagesComponent,
+    description: 'Broken images',
   },
 ];
 
